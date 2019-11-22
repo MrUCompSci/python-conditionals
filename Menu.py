@@ -1,30 +1,20 @@
-#How to compare more than 2 variable
+#How to make a menu
 
-#Assign or get variables
-x = 10
-y = 9
-z = 100
+#Print the options
+print("Press 1: Option 1")
+print("Press 2: Option 2")
+print("Press 3: Option 3")
 
-#Assign max to first variable
-current_max = x
+#Get user choice
+choice = int(input("Chose option: "))
 
-#Compare 1 at a time
-if current_max < y:
-    current_max = y
-if current_max < z:
-    current_max = z
-
-#Find which variable was the max
-if current_max == x:
-    print("Max is x")
-elif current_max == y:
-    print("Max is y")
+#Do code based on user option
+if choice == 1:
+    #Do choice 1
+    print("Doing choice 1")
+elif choice == 2:
+    #Do choice 2
+    print("Doing choice 2")
 else:
-    print("Max is z")
-
-print(current_max)
-
-
-
-
-
+    #Do choice 3
+    print("Doing choice 3")
